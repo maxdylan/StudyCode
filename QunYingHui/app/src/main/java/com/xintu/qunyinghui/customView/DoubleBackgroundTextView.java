@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.TextView;
 
 /**
@@ -26,6 +27,23 @@ public class DoubleBackgroundTextView extends android.support.v7.widget.AppCompa
             attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
+
+//    @Override
+//    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+//        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+//        int widthMode = MeasureSpec.getMode(widthMeasureSpec);
+//        int width = MeasureSpec.getSize(widthMeasureSpec);
+//
+//        Log.d("DoubleBackground", "At_most is " + MeasureSpec.AT_MOST + "  widthMode is " +
+//                widthMode + "  width is " + width);
+//
+//
+//        if (widthMode == MeasureSpec.AT_MOST) {
+//            width += 10;
+//        }
+//
+//        setMeasuredDimension(width,MeasureSpec.getSize(heightMeasureSpec));
+//    }
 
     private Paint firstBgPaint,secondBgPaint;
 
