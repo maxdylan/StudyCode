@@ -8,6 +8,8 @@
     android:orientation="vertical"
     tools:context="com.xintu.qunyinghui.customView.CustomTextViewTestActivity">
 
+    <include layout="@layout/common_title_bar"/>
+
     <com.xintu.qunyinghui.customView.DoubleBackgroundTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,5 +20,8 @@
     <com.xintu.qunyinghui.customView.FlashTextView
         android:layout_width="wrap_content"
         android:text="FlashTextView"
+        android:layout_height="wrap_content"/>
+    <com.xintu.qunyinghui.customView.CustomPieView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
