@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.xintu.qunyinghui.customView.ComboTitleBar
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/title"
     android:layout_width="match_parent"
     android:layout_height="40dp"
+    app:title="CustomTitle"
+    app:titleSize="14sp"
+    android:background="#000"
+    app:titleColor="#fff"
+    app:leftText="Back"
+    app:leftTextColor="#fff"
+    app:leftBackground="@mipmap/ic_launcher"
+    app:rightText="Right"
+    app:rightTextColor="#fff"
+    app:rightBackground="@mipmap/ic_launcher_round"
+
     >
 
 </com.xintu.qunyinghui.customView.ComboTitleBar>
