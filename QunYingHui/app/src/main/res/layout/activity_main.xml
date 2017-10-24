@@ -13,5 +13,13 @@
         android:layout_height="wrap_content"
         android:text="CustomTextView"
         android:onClick="goCustomTextView"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomViewGroup"
+        android:onClick="goCustomViewGroup"/>
 
 </LinearLayout>

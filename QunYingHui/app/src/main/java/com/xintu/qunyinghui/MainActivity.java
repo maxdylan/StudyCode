@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.xintu.qunyinghui.customView.CustomGroupViewActivity;
 import com.xintu.qunyinghui.customView.CustomTextViewTestActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,5 +19,10 @@ public class MainActivity extends AppCompatActivity {
     public void goCustomTextView(View view) {
         startActivity(new Intent(MainActivity.this,
                 CustomTextViewTestActivity.class));
+    }
+
+    public void goCustomViewGroup(View view) {
+        startActivity(new Intent(MainActivity.this, CustomGroupViewActivity
+                .class));
     }
 }

@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".customView.CustomTextViewTestActivity">
         </activity>
+        <activity android:name=".customView.CustomGroupViewActivity">
+        </activity>
     </application>
 
 </manifest>
